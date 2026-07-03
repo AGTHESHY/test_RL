@@ -1,0 +1,24 @@
+{"task": "chat", "prompt": "什么是过拟合?"}
+{"task": "chat", "prompt": "请给我三条学习编程的建议。"}
+{"task": "chat", "prompt": "用一句话解释什么是梯度下降。"}
+{"task": "chat", "prompt": "什么是神经网络?请通俗解释。"}
+{"task": "chat", "prompt": "解释一下什么是 API。"}
+{"task": "chat", "prompt": "给我一个提高专注力的小方法。"}
+{"task": "chat", "prompt": "什么是显存(VRAM)?"}
+{"task": "chat", "prompt": "用比喻解释什么是缓存。"}
+{"task": "chat", "prompt": "什么是模型量化?"}
+{"task": "chat", "prompt": "解释一下什么是递归。"}
+{"task": "chat", "prompt": "CPU 和 GPU 有什么区别?"}
+{"task": "chat", "prompt": "给我一个背单词的实用技巧。"}
+{"task": "math", "prompt": "计算 12 + 7 等于多少?只需给出最终数字答案。", "answer": "19"}
+{"task": "math", "prompt": "计算 25 - 8 等于多少?只需给出最终数字答案。", "answer": "17"}
+{"task": "math", "prompt": "计算 6 乘以 7 等于多少?只需给出最终数字答案。", "answer": "42"}
+{"task": "math", "prompt": "计算 81 除以 9 等于多少?只需给出最终数字答案。", "answer": "9"}
+{"task": "math", "prompt": "计算 13 + 28 等于多少?只需给出最终数字答案。", "answer": "41"}
+{"task": "math", "prompt": "计算 100 - 37 等于多少?只需给出最终数字答案。", "answer": "63"}
+{"task": "math", "prompt": "计算 9 乘以 12 等于多少?只需给出最终数字答案。", "answer": "108"}
+{"task": "math", "prompt": "计算 144 除以 12 等于多少?只需给出最终数字答案。", "answer": "12"}
+{"task": "math", "prompt": "计算 15 + 27 + 8 等于多少?只需给出最终数字答案。", "answer": "50"}
+{"task": "math", "prompt": "计算 7 乘以 8 再减去 6 等于多少?只需给出最终数字答案。", "answer": "50"}
+{"task": "math", "prompt": "一个班有 30 名学生,其中 12 名是女生,男生有多少名?只需给出最终数字答案。", "answer": "18"}
+{"task": "math", "prompt": "小明有 5 支笔,又买了 3 盒,每盒 4 支,一共有多少支笔?只需给出最终数字答案。", "answer": "17"}

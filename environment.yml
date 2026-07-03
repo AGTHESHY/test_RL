@@ -1,0 +1,12 @@
+name: test-rl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - ipykernel
+  # 说明:PyTorch 不在此处安装。
+  # RTX 50 系 (Blackwell) 必须用 cu128 轮子,需在激活环境后单独执行:
+  #   pip install --index-url https://download.pytorch.org/whl/cu128 torch torchvision
+  # 其余 Python 依赖见 requirements.txt

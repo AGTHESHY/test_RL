@@ -1,0 +1,30 @@
+# ===================================================================
+# 注意:请先单独安装 Blackwell (RTX 50 系) 可用的 PyTorch,再装本文件。
+#
+#   pip install --index-url https://download.pytorch.org/whl/cu128 torch torchvision
+#
+# 不要用普通的 `pip install torch`,否则 RTX 5080 会报
+# "no kernel image is available for execution on the device"。
+# ===================================================================
+
+# 核心:HuggingFace 生态
+transformers>=4.46.0
+peft>=0.13.0
+accelerate>=1.0.0
+datasets>=3.0.0
+
+# 4-bit 量化(Blackwell 需要较新版本,QLoRA / 4-bit 底座的前提)
+bitsandbytes>=0.45.0
+
+# 强化学习对齐训练器:RewardTrainer / DPOTrainer / PPOTrainer / GRPOTrainer
+# GRPOTrainer 需要较新的 trl,这里要求 >= 0.15
+trl>=0.15.0
+
+# 分词与工具
+sentencepiece>=0.2.0
+tokenizers>=0.20.0
+
+# 进度与可视化(画 reward / KL 曲线、对比表)
+tqdm>=4.66.0
+pandas>=2.0.0
+matplotlib>=3.7.0
